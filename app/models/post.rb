@@ -1,4 +1,4 @@
 class Post < ActiveRecord::Base
   validates :title, presend: true
-  validates 
+  validates :content, length {is: }
 end

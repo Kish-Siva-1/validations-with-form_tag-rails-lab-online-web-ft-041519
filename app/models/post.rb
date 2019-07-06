@@ -1,3 +1,4 @@
 class Post < ActiveRecord::Base
-  validates :title, 
+  validates :title, presend: true
+  validates 
 end
